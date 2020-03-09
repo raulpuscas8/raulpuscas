@@ -13,9 +13,12 @@ void bitwise( int* x, int* y )
 }
 int main()
 {
-	int v[100], n;
+	int a, b;
 
 	printf("Se inverseaza doua numere:");
-	scanf("%d", &n);
+	scanf("%d", &a);
+        scanf("%d", &b);
+        bitwise(&a, &b);
+        printf("a=%d, b=%d", a,b);
 	return 0;
 }
